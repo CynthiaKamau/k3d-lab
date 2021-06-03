@@ -1,0 +1,24 @@
+{
+  "name": "simple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BryanDollery/simple.git"
+  },
+  "author": "Bryan Dollery",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/BryanDollery/simple/issues"
+  },
+  "homepage": "https://github.com/BryanDollery/simple#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-pino-logger": "^6.0.0",
+    "pino": "^6.11.3"
+  }
+}
